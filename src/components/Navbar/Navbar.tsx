@@ -1,10 +1,10 @@
-import './Navbar.module.css'
+import styles from'./Navbar.module.css'
 
 function Navbar() {
     return (
-        <nav className='navbar'>
+        <nav className={styles.navbar}>
             <ul>
-                <li className='teste'>Home</li>
+                <li className={styles.teste}>Home</li>
                 <li>Campeões</li>
                 <li>Perfil</li>
             </ul>
