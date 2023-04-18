@@ -1,27 +1,18 @@
-.myVideomyVideo {
-    
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-  }
-  
+.containerFooter{  
+  background-color: rgb(6, 28, 37);
+  min-width: 100%;
+  height: 900px;
+}
 
-  .content {
-    position: relative;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
+.videoFooter {    
+    background-color: yellow;
+    width: 100vw;
+    height: 500px;
   }
-  
 
   .buttonVideo {
     width: 200px;
     font-size: 18px;
-    padding: 10px;
     border: none;
     background: #000;
     color: #fff;
@@ -32,3 +23,65 @@
     background: #ddd;
     color: black;
   }
+
+.downloadGroup{
+    width: 100%;
+    color: rgb(209, 218, 222);
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.downloadGroup h2{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.downloadGroup p{
+  font-size: 12px;
+  letter-spacing: 0.56px;
+}
+
+.imgGroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.appStoreLogo{
+  max-width: 110px;
+  max-height: 36.766px;
+}
+
+.googlePlayLogo{
+  width: 141.359px;
+  height: 55.781px;
+}
+
+.linkGroup{
+  color: rgb(249,249,249);
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  background-color: rgb(41, 41, 41);
+
+  font-size: 13px;
+  padding: 8px 16px;
+  letter-spacing: 1px;
+  font-weight: bold;
+
+}
+
+.linkGroup li{
+  padding: 8px 16px;
+  cursor: pointer;
+
+}
+
+.linkGroup li:hover{
+  background-color: aqua;
+  border-radius: 8px;
+}
