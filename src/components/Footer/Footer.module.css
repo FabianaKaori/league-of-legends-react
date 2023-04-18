@@ -1,22 +1,36 @@
 .containerFooter{  
   background-color: rgb(6, 28, 37);
   min-width: 100%;
-  height: 900px;
+}
+
+.videoGroup{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .videoFooter {    
     background-color: yellow;
-    width: 100vw;
-    height: 500px;
+    width: 100%;
+    position: relative;
+  }
+
+  .borderButton{
+    border: 2px solid red;  
+    padding: 5px;  
+    position:absolute;
   }
 
   .buttonVideo {
-    width: 200px;
+    width: 201.656px;
+    height: 56px;
     font-size: 18px;
     border: none;
-    background: #000;
-    color: #fff;
+    background-color: rgb(11, 198, 227);
+    color: rgb(1, 1, 1);
     cursor: pointer;
+    text-transform: uppercase;
   }
   
   .buttonVideo:hover {
@@ -27,7 +41,6 @@
 .downloadGroup{
     width: 100%;
     color: rgb(209, 218, 222);
-    background-color: red;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -62,16 +75,17 @@
 }
 
 .linkGroup{
-  color: rgb(249,249,249);
+  color: var(--standart-white);
   display: flex;
   justify-content: center;
   text-transform: uppercase;
-  background-color: rgb(41, 41, 41);
+  background-color: #292929;
 
   font-size: 13px;
   padding: 8px 16px;
   letter-spacing: 1px;
   font-weight: bold;
+  padding: 24px 0;
 
 }
 
@@ -82,6 +96,103 @@
 }
 
 .linkGroup li:hover{
-  background-color: aqua;
+  background-color: #444444;
   border-radius: 8px;
+}
+
+
+.finishGroup{
+  background-color: #111111;
+}
+
+.iconYoutube{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.iconYoutube img{
+  max-width: 16px;
+  padding: 10px;
+  border-radius: 13px;
+  background-color: #282828;
+  margin: 24px 5px;
+  cursor: pointer;
+}
+
+.riotLogoFooter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.riotLogoFooter img{
+  margin: 12px 0;
+  cursor: pointer;
+}
+
+.riotLogoFooter p{
+  width: 40vw;
+  text-align: center;
+  color: rgb(126, 126, 126);
+  font-size: 13px;
+  cursor: default;
+  user-select: none;
+  margin: 12px;
+}
+
+.linkEula{
+  display: flex;
+  justify-content: center;
+}
+
+.linkEula li{
+  padding: 8px 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 12px 0;  
+  color: var(--standart-white);
+}
+
+.linkEula li:hover{
+  background-color: #444444;
+  border-radius: 8px;
+}
+
+.cardParentalRating{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.parentalRating{
+  display: flex;
+  background-color: #292929;
+  padding: 10px;
+  width: 280px;
+  height: auto;
+  border-radius: 8px;
+  cursor: default;
+  user-select: none;
+}
+
+.parentalRating ul{
+  box-sizing: border-box;
+  color: rgb(239, 239, 239);
+  cursor: default;
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  height: 98px;
+  line-height: 19.5px;
+  margin-left: 12px;
+  text-align: left;
+  text-size-adjust: 100%;
+  user-select: none;
+  width: 140px;
 }
