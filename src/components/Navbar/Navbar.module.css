@@ -6,8 +6,9 @@
     height: 5rem;
     padding-left: 1rem;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight:bolder;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
 
 }
 
@@ -16,12 +17,17 @@
 }
 
 .imgLogoRiotGames{
-    width: 75px;
+    width: 78px;
     cursor: pointer;
 }
 
+.imgLogoRiotGames:hover{
+    color: red;
+}
+
 .imgLogoRiotGamesLetter{
-    width: 50px;
+    margin: 10px;
+    width: 25px;
     cursor: pointer;
 }
 
@@ -44,6 +50,16 @@
 
 }
 
+.mainNavLinkOut{
+    margin: 0 5px;
+    width: 12px;
+}
+
+.mainNavArrowDown{
+    margin: 0 8px;
+    width: 9px;
+}
+
 .ulFirst li:hover{
     background-color: rgba(128, 128, 128, 0.2);    
     border-radius: 10px;
@@ -60,7 +76,6 @@
 
 .ulSecond{
     display: flex;
-    justify-content: space-between;
     align-items: center;    
     text-transform: uppercase;    
     cursor: pointer;
@@ -69,21 +84,29 @@
 }
 
 .search{
-    width: 30px; 
-    height: 30px;
+    width: 22px; 
+    height: 22px;
     padding: 10px;
     border-radius: 50px;
-    background-color: rgba(128, 128, 128, 0.2);  
+    background-color: rgba(128, 128, 128, 0.2);
+    margin: 0 5px;
 
 }
 
 .globoIcon{
-    width: 32px;
-    height: 32px;
-    
+    width: 18px;
+    height: 18px;
+    padding: 10px;
+}
+
+.globoIcon:hover{    
+    padding: 10px;
+    border-radius: 10px;    
+    background-color: rgba(128, 128, 128, 0.2);
 }
 
 .beginSession{
+    margin: 0 5px;
     background-color: rgba(128, 128, 128, 0.2);
     padding: 0.5rem 1rem;
     border-radius: 6.4px;
@@ -91,6 +114,7 @@
 }
 
 .playNow{
+    margin: 0 5px;
     background-color: rgb(11, 196, 226);
     padding: 0.5rem 1rem;
     border-radius: 12px;
