@@ -6,7 +6,7 @@ function Navbar() {
             <div className={styles.logoGroup}>
                 <img className={styles.imgLogoRiotGames} src='src\assets\Home\Logo\mainLogoRiotFirst.svg' />
                 <img className={styles.mainNavArrowDown}  src='src\assets\Home\Logo\mainNavArrowDown.svg' />
-                <img className={styles.imgLogoRiotGamesLetter} src='src\assets\Home\Logo\svgexport-19.svg'/>
+                <img className={styles.imgLogoRiotGamesLetter} src='src\assets\Home\Logo\imgLogoRiotGamesLetter.svg'/>
             </div>
             <ul className={styles.ulFirst}>
                 <li><a>O jogo</a></li>

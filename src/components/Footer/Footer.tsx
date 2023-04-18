@@ -1,9 +1,18 @@
-function Footer () {
-    return(
-        <>
-        <h1>Footer</h1>
-        <p>Conteudo do footer</p>
-        </>
+import styles from './Footer.module.css'
+
+function Footer() {
+    return (
+        <div className={styles.containerFooter}>
+            <video autoPlay muted loop className={styles.myVideo}>
+                <source src="src\assets\Home\Video\Vi_Caitlyn_Urgot.mp4" type="video/mp4" />
+            </video>
+
+            <button className={styles.buttonVideo}>Jogue Agora</button>
+        </div>
+
+
+
+
     );
 }
 
