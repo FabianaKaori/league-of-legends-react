@@ -2,9 +2,97 @@
     background-color: var(--standart-dark-gray);
     display: flex;
     justify-content: space-between;
+    width: 100wp;
+    height: 5rem;
+    padding-left: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight:bolder;
+
 }
 
-.teste{
-    color: red;
+.logoGroup{
+    display: flex;
+}
 
+.imgLogoRiotGames{
+    width: 75px;
+    cursor: pointer;
+}
+
+.imgLogoRiotGamesLetter{
+    width: 50px;
+    cursor: pointer;
+}
+
+.ulFirst{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 1;
+    color: white;
+    text-transform: uppercase;
+    margin: 10px;
+    
+}
+
+.ulFirst li{
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 10px;
+
+}
+
+.ulFirst li:hover{
+    background-color: rgba(128, 128, 128, 0.2);    
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ulFirst li a:hover{
+    padding-bottom: 20px;
+    border-bottom: 4px solid rgb(11, 196, 226);
+    cursor: pointer;
+
+}
+
+
+.ulSecond{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    text-transform: uppercase;    
+    cursor: pointer;
+    padding-right: 32px;
+    text-align: left;
+}
+
+.search{
+    width: 30px; 
+    height: 30px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgba(128, 128, 128, 0.2);  
+
+}
+
+.globoIcon{
+    width: 32px;
+    height: 32px;
+    
+}
+
+.beginSession{
+    background-color: rgba(128, 128, 128, 0.2);
+    padding: 0.5rem 1rem;
+    border-radius: 6.4px;
+    color: rgb(249, 249, 249);
+}
+
+.playNow{
+    background-color: rgb(11, 196, 226);
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    text-decoration-color: rgb(17,17,17);
 }
