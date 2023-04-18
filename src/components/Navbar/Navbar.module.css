@@ -1,7 +1,10 @@
 .navbar{
     background-color: var(--standart-dark-gray);
+    display: flex;
+    justify-content: space-between;
 }
 
 .teste{
     color: red;
+
 }
