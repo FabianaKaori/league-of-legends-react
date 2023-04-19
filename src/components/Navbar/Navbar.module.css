@@ -8,21 +8,22 @@
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 1px;
+    text-decoration: none;
+}
 
+a {
+    color: inherit;
 }
 
 .logoGroup{
     display: flex;
+    align-items: center;
 }
 
 .imgLogoRiotGames{
     width: 78px;
     cursor: pointer;
     padding-left:10px ;
-}
-
-.imgLogoRiotGames:hover{
-    color: red;
 }
 
 .imgLogoRiotGamesLetter{

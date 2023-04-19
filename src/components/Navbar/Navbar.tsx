@@ -4,48 +4,52 @@ function Navbar() {
     return (
         <nav className={styles.navbar}>
             <div className={styles.logoGroup}>
-                <img className={styles.imgLogoRiotGames} src='src\assets\Home\Logo\mainLogoRiotFirst.svg' />
-                <img className={styles.mainNavArrowDown}  src='src\assets\Home\Logo\mainNavArrowDown.svg' />
-                <img className={styles.imgLogoRiotGamesLetter} src='src\assets\Home\Logo\imgLogoRiotGamesLetter.svg'/>
+                <a>
+                    <img className={styles.imgLogoRiotGames} src='src\assets\Home\Logo\mainLogoRiotFirst.svg' />
+                    <img className={styles.mainNavArrowDown} src='src\assets\Home\Logo\mainNavArrowDown.svg' />
+                </a>
+                <a href="/">
+                    <img className={styles.imgLogoRiotGamesLetter} src='src\assets\Home\Logo\imgLogoRiotGamesLetter.svg' />
+                </a>
             </div>
             <ul className={styles.ulFirst}>
-                <li><a>O jogo</a></li>
-                <li><a>Campeões</a></li>
+                <li><a href='https://www.leagueoflegends.com/pt-br/how-to-play/'>O jogo</a></li>
+                <li><a href='/champions'>Campeões</a></li>
                 <li>
                     <a>
-                        Notícias 
-                        <img className={styles.mainNavArrowDown} src='src\assets\Home\Logo\mainNavArrowDown.svg'/>
+                        Notícias
+                        <img className={styles.mainNavArrowDown} src='src\assets\Home\Logo\mainNavArrowDown.svg' />
                     </a>
                 </li>
                 <li><a>Notas de atualizações</a></li>
                 <li>
                     <a>
-                        Comunidade 
-                        <img className={styles.mainNavArrowDown} src='src\assets\Home\Logo\mainNavArrowDown.svg'/>
+                        Comunidade
+                        <img className={styles.mainNavArrowDown} src='src\assets\Home\Logo\mainNavArrowDown.svg' />
                     </a>
                 </li>
                 <li>
                     <a>
-                        Esports 
-                        <img className={styles.mainNavLinkOut} src='src\assets\Home\Logo\mainNavLinkOut.svg'/>
+                        Esports
+                        <img className={styles.mainNavLinkOut} src='src\assets\Home\Logo\mainNavLinkOut.svg' />
                     </a>
                 </li>
                 <li>
                     <a>
-                        Universo 
-                        <img className={styles.mainNavLinkOut} src='src\assets\Home\Logo\mainNavLinkOut.svg'/>
+                        Universo
+                        <img className={styles.mainNavLinkOut} src='src\assets\Home\Logo\mainNavLinkOut.svg' />
                     </a>
                 </li>
                 <li>
                     <a>
-                        Suporte 
-                        <img className={styles.mainNavLinkOut} src='src\assets\Home\Logo\mainNavLinkOut.svg'/>
+                        Suporte
+                        <img className={styles.mainNavLinkOut} src='src\assets\Home\Logo\mainNavLinkOut.svg' />
                     </a>
                 </li>
                 <li>
                     <a>
-                        Mais 
-                        <img className={styles.mainNavArrowDown} src='src\assets\Home\Logo\mainNavArrowDown.svg'/>
+                        Mais
+                        <img className={styles.mainNavArrowDown} src='src\assets\Home\Logo\mainNavArrowDown.svg' />
                     </a>
                 </li>
             </ul>
