@@ -1,4 +1,6 @@
 import styles from './Footer.module.css'
+import { Link } from 'react-router-dom';
+
 
 function Footer() {
     return (
@@ -7,8 +9,9 @@ function Footer() {
                 <video autoPlay muted loop className={styles.videoFooter}>
                     <source src='src\assets\Home\Video\sylasGarenLux.mp4' type="video/mp4" />
                 </video>
+
                 <div className={styles.borderButton}>
-                    <button className={styles.buttonVideo}>Jogue Agora</button>
+                    <button className={styles.buttonVideo}>                <Link to="/">Jogue Agora</Link></button>
                 </div>
             </div>
 

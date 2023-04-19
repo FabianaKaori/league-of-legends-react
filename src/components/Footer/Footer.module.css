@@ -11,13 +11,12 @@
 }
 
 .videoFooter {    
-    background-color: yellow;
     width: 100%;
     position: relative;
   }
 
   .borderButton{
-    border: 2px solid red;  
+    border: 2px solid rgb(209, 218, 222);  
     padding: 5px;  
     position:absolute;
   }
@@ -31,11 +30,8 @@
     color: rgb(1, 1, 1);
     cursor: pointer;
     text-transform: uppercase;
-  }
-  
-  .buttonVideo:hover {
-    background: #ddd;
-    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
   }
 
 .downloadGroup{
