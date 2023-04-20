@@ -11,7 +11,8 @@ function Footer() {
                 </video>
 
                 <div className={styles.borderButton}>
-                    <button className={styles.buttonVideo}>                <Link to="/">Jogue Agora</Link></button>
+                    <button className={styles.buttonVideo}>
+                        <Link to="/">Jogue Agora</Link></button>
                 </div>
             </div>
 
