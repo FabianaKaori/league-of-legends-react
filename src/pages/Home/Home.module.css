@@ -1,0 +1,145 @@
+.containerHeadHome {
+    display: flex;
+    justify-content: center;
+}
+
+.videoHomeBackground{
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+    filter: blur(1rem);
+    position: absolute;
+}
+
+.borderVideo{
+    padding: 10px;    
+    position: relative;  
+    margin-top: 5rem;
+    border: 1px solid #7E7E7E; 
+}
+
+.videoGroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoHomeTitle{
+    object-fit: cover;
+    height: 31.2rem;
+    width: 90vw;
+    position: relative;
+}
+
+.imgButtonGroup{
+    height: 500px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+
+}
+
+.imgLeague{
+    object-fit: scale-down;
+    max-width: 35vw;
+}
+
+  .buttonVideo {
+    position: relative;
+    width: 201.656px;
+    height: 56px;
+    font-size: 13px;
+    border: none;
+    background-color: rgb(11, 198, 227);
+    color: rgb(1, 1, 1);
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.95px;
+  }
+
+  .borderButton{
+    border: 2px solid rgb(209, 218, 222);  
+    padding: 5px;  
+    position:absolute;
+    align-self: flex-end;
+    margin-bottom: 30px;
+  }
+
+  .groupTextHomeChampion{
+    font-family: serif;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .escolhaSeu{
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 22px;
+    text-align: center;
+    color: black;
+  }
+
+  .campeaoHomeh1{
+    max-width: 568px;
+    max-height: 126px;
+
+    color: black;
+    display: block;
+    font-size: 87px;
+    font-style: italic;
+    font-weight: 800;
+    letter-spacing: 2.58px;
+    text-align: center;
+  }
+
+  .textPChampion{
+    width: 600px;
+    height: 45px;
+
+    letter-spacing: 1px;
+    line-height: 22px;
+    opacity: 1;
+    height: 45px;
+    text-align: center;
+  }
+
+.groupBtnHomeChampion{
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btnDescubraMais{
+    border: none;
+    color: white;
+    background-color: #D0A85C;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1;
+    line-height: 11px;
+    text-align: center;
+    width: 222px;
+    height: 33.5px;
+}
+
+.playNow{
+    border: none;
+    color: white;
+    background-color: rgb(11, 198, 227);;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1;
+    line-height: 11px;
+    text-align: center;
+    width: 222px;
+    height: 33.5px;
+}
