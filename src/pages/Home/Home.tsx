@@ -6,8 +6,9 @@ function Home() {
         <>
             <section>
                 <div className={styles.containerHeadHome}>
+                    
                     <video className={styles.videoHomeBackground} autoPlay muted loop>
-                        <source src='src/assets/Home/Video/video_home.webm' type="video/mp4" />
+                        <source src='src/assets/Home/Video/video_home_blurred.webm' type="video/mp4" />
                     </video>
 
                     <div className={styles.borderVideo}>
@@ -40,8 +41,88 @@ function Home() {
                         <button className={styles.playNow}>JOGAR AGORA</button>
                     </div>
                 </div>
-
             </section>
+
+            <div>
+                <nav>
+                <div className={styles.iconGroup}>
+                    <img src='' title='assassinos'/>
+                    <img src='' title='lutadores'/>
+                    <img src='' title='magos'/>
+                    <img src='' title='atiradores'/>
+                    <img src='' title='suportes'/>
+                    <img src='' title='tanques'/>
+                </div>
+                <div className={styles.videoGroupLane}>
+                    <video autoPlay muted loop >
+                        <source src='' title='assassinos/webm'></source>
+                    </video>
+
+                    <video autoPlay muted loop >
+                        <source src='' title='lutadores/webm'></source>
+                    </video>
+
+                    <video autoPlay muted loop >
+                        <source src='' title='magos/webm'></source>
+                    </video>
+
+                    <video autoPlay muted loop >
+                        <source src='' title='atiradores/webm'></source>
+                    </video>
+
+                    <video autoPlay muted loop >
+                        <source src='' title='suportes/webm'></source>
+                    </video>
+
+                    <video autoPlay muted loop >
+                        <source src='' title='tanques/webm'></source>
+                    </video>
+                </div>
+
+                <div className={styles.imgGroupLanes}>
+                    <img src='' title='assassinoAkali'/>
+                    <img src='' title='lutadorYasuo'/>
+                    <img src='' title='magoLux'/>
+                    <img src='' title='atiradorJinx'/>
+                    <img src='' title='suporteThresh'/>
+                    <img src='' title='tanqueLeona'/>
+                </div>
+
+                <div className={styles.descriptionGroupChampions}>
+                    <p className={styles.descriptionChampion}>
+                        <strong className={styles.descriptionChampionName}>Akali</strong>
+                        <span className={styles.descriptionChampionDescription}>A Assasina Renegada</span>
+                    </p>
+
+                    <p className={styles.descriptionChampion}>
+                        <strong className={styles.descriptionChampionName}>Yasuo</strong>
+                        <span className={styles.descriptionChampionDescription}>O Imperdoável</span>
+                    </p>
+
+                    <p className={styles.descriptionChampion}>
+                        <strong className={styles.descriptionChampionName}>Lux</strong>
+                        <span className={styles.descriptionChampionDescription}>A Dama da Luz</span>
+                    </p>
+
+                    <p className={styles.descriptionChampion}>
+                        <strong className={styles.descriptionChampionName}>Jinx</strong>
+                        <span className={styles.descriptionChampionDescription}>O Gatilho Desenfreado</span>
+                    </p>
+
+                    <p className={styles.descriptionChampion}>
+                        <strong className={styles.descriptionChampionName}>Thresh</strong>
+                        <span className={styles.descriptionChampionDescription}>O Guardião das Correntes</span>
+                    </p>
+
+                    <p className={styles.descriptionChampion}>
+                        <strong className={styles.descriptionChampionName}>Leona</strong>
+                        <span className={styles.descriptionChampionDescription}>A Alvorada Radiante</span>
+                    </p>
+                </div>
+
+                </nav>
+
+            </div>
 
         </>
     )

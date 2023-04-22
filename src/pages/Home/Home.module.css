@@ -1,14 +1,23 @@
+@font-face {
+  font-family: 'Beaufort-Bold';
+  src: url('src/fonts/Beaufort-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Spiegel-Regular';
+  src: url('src/fonts/Spiegel-Regular.ttf');
+}
+
 .containerHeadHome {
     display: flex;
     justify-content: center;
 }
 
 .videoHomeBackground{
-    width: 100%;
-    object-fit: cover;
-    height: 500px;
-    filter: blur(1rem);
-    position: absolute;
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  height: 500px;
 }
 
 .borderVideo{
@@ -85,11 +94,14 @@
     line-height: 22px;
     text-align: center;
     color: black;
+    font-family: Beaufort-Bold, serif;
+
   }
 
   .campeaoHomeh1{
     max-width: 568px;
     max-height: 126px;
+    font-family: Beaufort-Bold, serif;
 
     color: black;
     display: block;
@@ -103,7 +115,7 @@
   .textPChampion{
     width: 600px;
     height: 45px;
-
+    font-family: Spiegel-Regular, serif;
     letter-spacing: 1px;
     line-height: 22px;
     opacity: 1;
