@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Beaufort-Bold';
+    src: url('src/fonts/Beaufort-Bold.ttf');
+  }
+  
+  @font-face {
+    font-family: 'Spiegel-Regular';
+    src: url('src/fonts/Spiegel-Regular.ttf');
+  }
+
+  .championPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .cardChampionTitleGroup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+  }
+
+  .escolhaSeu{
+    font-family: Beaufort-Bold, serif;    
+    font-weight: 600;
+    font-size: 24px;
+    font-style: italic;
+    cursor: default;
+    letter-spacing: 2.4px;
+    
+  }
+
+  .champion{
+    font-family: Beaufort-Bold, serif;    
+    font-weight: 800;
+    display: block;
+    font-size: 114px;
+    font-style: italic;
+    letter-spacing: 3.42px;
+    padding: 0 15px 10px 15px ;
+    margin-bottom: -10px;
+    text-align: center;
+  }
+
+  .cardChampionTitleText{
+    font-family: Spiegel-Regular, serif;
+    text-align: center;
+    font-size: 14px;
+    max-width: 20vw;
+    line-height: 22.4px;
+  }
+
+  .searchBar{
+    height: 50px;
+    width: 75vw;
+    background-color: slategray;
+    border: 1px solid black;
+  }
+
+  .cardChampionContainer{
+    max-width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
