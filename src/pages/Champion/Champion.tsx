@@ -2,8 +2,8 @@ import styles from './Champion.module.css'
 import CardChampion from '../../components/CardChampion'
 import axios from 'axios'
 import { useEffect, useState } from 'react'
-import { any } from 'prop-types'
 import { Link } from 'react-router-dom'
+import { TabTitle } from '../../utils/Title/Title'
 
 function Champion() {
     const [riotApi] = useState<string>("https://ddragon.leagueoflegends.com")
@@ -25,6 +25,8 @@ function Champion() {
                 })
         }
     }, [apiVersion])
+
+    TabTitle('Campeões - League of Legends')
 
     return (
         <>

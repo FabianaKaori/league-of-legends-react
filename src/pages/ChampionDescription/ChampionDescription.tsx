@@ -6,15 +6,17 @@ function ChampionDescription() {
             <div className={styles.container}>
                 <section className={styles.sectionFirst}>
                     <div className={styles.backgroundSection}>
-
+                        <img src='src/assets/ChampionDescription/Irelia_0.jpg' />
                     </div>
+
                     <div className={styles.titleContainer}>
                         <div className={styles.descriptionTitleChampion}>
                             <img src='src/assets/ChampionDescription/Irelia_0.jpg' />
                             <div className={styles.groupTitle}>
-                                <div>
-                                    <h5>O REI DESTRUÍDO</h5>
-                                    <h1>VIEGO</h1>
+
+                                <div className={styles.spanGroupTitle}>
+                                    <span className={styles.spanDescriptionChampionTitle}>O REI DESTRUÍDO</span>
+                                    <span className={styles.spanNameChampion}>VIEGO</span>
                                 </div>
 
                             </div>

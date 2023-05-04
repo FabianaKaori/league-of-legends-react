@@ -1,7 +1,10 @@
 import styles from './Home.module.css'
 import { Link } from 'react-router-dom'
+import { TabTitle } from '../../utils/Title/Title'
 
 function Home() {
+    TabTitle('League Of Legends')
+
     return (
         <>
             <section>
