@@ -12,7 +12,7 @@ function ChampionDescription() {
                         <div className={styles.descriptionTitleChampion}>
                             <img src='src/assets/ChampionDescription/Irelia_0.jpg' />
                             <div className={styles.groupTitle}>
-                                <div className={}>
+                                <div>
                                     <h5>O REI DESTRUÍDO</h5>
                                     <h1>VIEGO</h1>
                                 </div>
