@@ -6,6 +6,7 @@ import './index.css'
 import Home from './pages/Home'
 import Champion from './pages/Champion/Champion'
 import ErrorPage from './pages/ErrorPage/ErrorPage'
+import ChampionDescription from './pages/ChampionDescription'
 
 import { createBrowserRouter, RouterProvider} from 'react-router-dom' 
 
@@ -25,6 +26,10 @@ const router = createBrowserRouter ([
         path: "/champions",
         element: <Champion />,
       },
+      {
+        path: "/teste",
+        element: <ChampionDescription />
+      }
     ],
   },
 
