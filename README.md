@@ -6,14 +6,11 @@
 
    * [Projeto](#projeto)
    * [API](#api)
-   * _[Versao Api](#versaoApi)
+   * [Versao Api](#versaoApi)
    * [Como iniciar o projeto](#iniciar-projeto)   
    * [Telas](#telas)
-   * [Tecnologias utilizadas](#tecnologia-utilizada)
    * [Princípios da engenharia](#principio-engenharia)
-   * [Desafios e como foi solicionado](#desafio-solucao)
-   * [Melhorias a serem feitas](#melhorias)
-   * [Sobre](#sobre)      
+   
 
 
 <br>
@@ -103,5 +100,38 @@ https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0012/ability_0012_Q1.we
 <img src="https://user-images.githubusercontent.com/43157230/236255618-5528ffa1-e4fe-4862-8b4b-0750a2407cc8.png"/>
 </div>
 <br>
-1. Código do campeão, no exemplo acima o código 0012 é do Alistar.
+1. Código do campeão, no exemplo acima o código 0012 é do Alistar.<br>
 2. Letra que representa a Spell. Temos 4 spell no League of Legends: <b>Q, W, E, R</b>.
+<br>
+Para procurar de outro campeão, você poderá pegar o código no arquivo individual do campeão
+<br>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/43157230/236310750-205585ec-ce37-40b4-be4c-2919317470cd.png" />
+</div>
+<br>
+<h2 id="iniciar-projeto"><br>
+  Iniciando o projeto
+</h2>
+
+- instale as dependencias do projeto: ```npm install```
+- para executar, no CLI, digite: ```npm run dev```
+- acesse: ```http://127.0.0.1:5173/```
+
+<h2 id="telas"><br>
+  Telas
+</h2>
+<div align="center">
+  <h3>Home</h3>
+<img width="800" src="https://user-images.githubusercontent.com/43157230/236313941-e84c8a62-a8b1-4736-af70-1b96c7cb4461.png" alt="home"><br>
+
+
+<h2 id="principio-engenharia"><br>
+  Princípios da engenharia
+</h2>
+
+Tentei seguir o princípio de SOLID, principalmente "Single Responsibility Principle" (Princípio de responsabilidade única).
+
+<div align="middle">
+<img width="600" src="https://raw.githubusercontent.com/FabianaKaori/TheOneProject/main/src/assets/SSolid.png">
+</div>
+<a href="https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898" alt="Fonte:"></a>
