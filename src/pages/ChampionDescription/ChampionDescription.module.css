@@ -69,6 +69,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: aquamarine;
+    padding: 10px;
 }
 
 .spanDescriptionChampionTitle{
@@ -89,4 +91,8 @@
     letter-spacing: 2.5px;
     text-align: center;
     text-transform: uppercase;
+}
+
+.containerTypeBarDifficulty{
+    
 }

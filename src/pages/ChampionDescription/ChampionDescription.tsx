@@ -1,17 +1,25 @@
 import styles from './ChampionDescription.module.css'
+import { useEffect, useState } from 'react'
 
 function ChampionDescription() {
+    const [riotApi] = useState<string>("https://ddragon.leagueoflegends.com")
+    const [teste] = "Nami"
+
+    
+
+
+
     return (
         <>
             <div className={styles.container}>
                 <section className={styles.sectionFirst}>
                     <div className={styles.backgroundSection}>
-                        <img src='src/assets/ChampionDescription/Irelia_0.jpg' />
+                        <img src='http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg' />
                     </div>
 
                     <div className={styles.titleContainer}>
                         <div className={styles.descriptionTitleChampion}>
-                            <img src='src/assets/ChampionDescription/Irelia_0.jpg' />
+                            <img src='http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg' />
                             <div className={styles.groupTitle}>
 
                                 <div className={styles.spanGroupTitle}>
@@ -20,9 +28,9 @@ function ChampionDescription() {
                                 </div>
 
                             </div>
-                            <div>
+                            <div className={styles.containerTypeBarDifficulty}>
                                 <div>
-                                    <img src='' />
+                                    <img src='src/assets/ChampionDescription/Logo/Assassin.svg' />
                                     <span>FUNÇÃO</span>
                                     <span>ASSASSINO</span>
                                 </div>
