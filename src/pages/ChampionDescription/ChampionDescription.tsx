@@ -48,7 +48,7 @@ function ChampionDescription() {
                             </div>
                             <div className={styles.containerTypeBarDifficulty}>
                                 <div>
-                                    <img src='src/assets/ChampionDescription/Logo/Assassin.svg' />
+                                    <img src={`/src/assets/ChampionDescription/Logo/${champion.tags[0]}.svg`} />
                                     <span>FUNÇÃO</span>
                                     <span>{champion.tags[0]}</span>
                                 </div>
@@ -60,7 +60,7 @@ function ChampionDescription() {
                             </div>
                         </div>
                         <div>
-                            <p>Outrora regente de um reino perdido, Viego morreu há mais de um milênio, quando uma tentativa de trazer sua esposa de volta à vida culminou em uma catástrofe mágica conhecida como "a Ruína". Transformado em um poderoso espectro morto-vivo, e sempre sendo torturado pela paixão obsessiva que sente por sua rainha morta há séculos, Viego agora é conhecido como o Rei Destruído. Hoje, ele controla os Tormentos enquanto assola Runeterra em busca de qualquer coisa que possa trazê-la de volta, destruindo tudo que estiver em seu caminho conforme a Névoa Negra emana de seu cruel coração partido.</p>
+                            <p>{champion.lore}</p>
                         </div>
                     </div>
                 </section>
