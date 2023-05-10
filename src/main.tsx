@@ -16,7 +16,7 @@ const router = createBrowserRouter ([
     path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
-    
+
     children:[
       {
         path: "/",
@@ -27,7 +27,7 @@ const router = createBrowserRouter ([
         element: <Champion />,
       },
       {
-        path: "/teste",
+        path: "/champions/:championId",
         element: <ChampionDescription />
       }
     ],

@@ -5,7 +5,7 @@ function Navbar() {
         <nav className={styles.navbar}>
             <div className={styles.logoGroup}>
                 <a>
-                    <img className={styles.imgLogoRiotGames} src='src\assets\Home\Logo\mainLogoRiotFirst.svg' />
+                    <img className={styles.imgLogoRiotGames} src={'./src/assets/Home/Logo/mainLogoRiotFirst.svg'} />
                     <img className={styles.mainNavArrowDown} src='src\assets\Home\Logo\mainNavArrowDown.svg' />
                 </a>
                 <a href="/">
