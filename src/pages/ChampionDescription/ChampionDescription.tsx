@@ -2,6 +2,7 @@ import styles from './ChampionDescription.module.css'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import { useParams } from 'react-router-dom'
+import { TabTitle } from '../../utils/Title/Title'
 
 function ChampionDescription() {
     const [riotApi] = useState<string>("https://ddragon.leagueoflegends.com")
@@ -26,6 +27,12 @@ function ChampionDescription() {
             })
         }
     }, [apiVersion])
+
+    useEffect(() => {
+        if(champion) {
+            TabTitle(`${champion.name}, ${champion.title} - League of Legends`)
+        }
+    },[champion])   
 
     return (
         <>{champion &&
